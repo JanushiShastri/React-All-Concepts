@@ -1,5 +1,6 @@
 // import Card from "./Card"
 import Button from "./Button";
+import ColorPicker from "./ColorPicker";
 import Counter from "./Counter";
 import List from "./List";
 import MyComponent from "./MyComponent";
@@ -33,7 +34,8 @@ function App() {
   {/* <Button></Button> */}
 
   {/* <MyComponent></MyComponent> */}
-    <Counter></Counter>
+    {/* <Counter></Counter> */}
+    <ColorPicker></ColorPicker>
   </>
   );
 }
