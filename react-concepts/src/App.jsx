@@ -1,6 +1,8 @@
 // import Card from "./Card"
 import Button from "./Button";
+import Counter from "./Counter";
 import List from "./List";
+import MyComponent from "./MyComponent";
 // import Student from "./Student";
 function App() {
   // const fruits = [
@@ -28,8 +30,10 @@ function App() {
   {/* <List items= {fruits} category="fruits"></List>
   <List items={veggies} category="veggies"></List> */}
 
-  <Button></Button>
-  
+  {/* <Button></Button> */}
+
+  {/* <MyComponent></MyComponent> */}
+    <Counter></Counter>
   </>
   );
 }
